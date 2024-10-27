@@ -1,0 +1,60 @@
+<!-- 
+16:9 aspect ratio
+based on 853x480
+-->
+<theme>
+
+   <!--
+   ///
+   All Views
+   ///
+   -->
+   <view name="system,gamelist">
+      <image name="textlist-outer-border">
+         <path>./_inc/images/4-3/textlist-outer-border.svg</path>
+      </image>
+      <image name="textlist-inner-border">
+         <path>./_inc/images/4-3/textlist-inner-border.svg</path>
+      </image>
+      <image name="textlist-background">
+         <path>./_inc/images/4-3/textlist-background.svg</path>
+      </image>
+      <image name="textlist-background-lines">
+         <path>./_inc/images/4-3/textlist-background-lines.svg</path>
+      </image>
+      <image name="viewname-border">
+         <path>./_inc/images/4-3/viewname-border.svg</path>
+      </image>
+      <image name="viewname-background">
+         <path>./_inc/images/4-3/viewname-background.svg</path>
+      </image>
+      <text name="viewname">
+         <pos>0.5 0.11875</pos><!-- 320 57 -->
+         <fontSize>0.025</fontSize><!-- 12 -->
+      </text>
+      <textlist name="textlist">
+         <pos>0.0625 0.225</pos><!-- 40 108 -->
+         <size>0.875 0.525</size><!-- 560 252 -->
+         <selectorHeight>0.00208333</selectorHeight>
+         <selectorVerticalOffset>0.042</selectorVerticalOffset>
+         <fontSize>0.03333333</fontSize><!-- 16 -->
+         <lineSpacing>1.75</lineSpacing>
+         <horizontalMargin>0.03125</horizontalMargin>
+      </textlist>
+      <image name="helpsystem-outer-border">
+         <path>./_inc/images/4-3/helpsystem-outer-border.svg</path>
+      </image>
+      <image name="helpsystem-inner-border">
+         <path>./_inc/images/4-3/helpsystem-inner-border.svg</path>
+      </image>
+      <image name="helpsystem-background">
+         <path>./_inc/images/4-3/helpsystem-background.svg</path>
+      </image>
+      <helpsystem name="help">
+         <fontSize>0.025</fontSize><!-- 12 -->
+         <entrySpacing>0.015625</entrySpacing><!-- 10 -->
+         <iconTextSpacing>0.00625</iconTextSpacing><!-- 4 -->
+      </helpsystem>
+   </view>
+
+</theme>

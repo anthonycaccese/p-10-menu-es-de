@@ -1,0 +1,258 @@
+<!--
+theme name: P10 Menu
+ported by:  Anthony Caccese
+license:    creative commons CC-BY-NC-SA
+https://github.com/anthonycaccese/p10-menu-es-de
+-->
+<theme>
+
+   <!--
+   ///
+   Variables
+   ///
+   -->
+   <variables>
+      <spacerImage>./_inc/images/space.png</spacerImage>
+      <textlistFont>./_inc/fonts/A Goblin Appears!.otf</textlistFont>
+      <helpsystemFont>./_inc/fonts/A Goblin Appears!.otf</helpsystemFont>
+   </variables>
+   <colorScheme name="default">
+      <variables>
+         <colorSchemePath>./colors.xml</colorSchemePath>
+      </variables>
+   </colorScheme>
+   <colorScheme name="custom">
+      <variables>
+         <colorSchemePath>./theme-customizations/colors-custom.xml</colorSchemePath>
+      </variables>
+   </colorScheme>
+   <include>${colorSchemePath}</include>
+
+   <!--
+   ///
+   All Views
+   ///
+   -->
+   <view name="system,gamelist">
+      <image name="background">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>${spacerImage}</path>
+         <color>${backgroundColor}</color>
+         <stationary>always</stationary>
+         <zIndex>0</zIndex>
+      </image>
+      <image name="textlist-outer-border">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <color>${textlistOuterBorderColor}</color>
+         <stationary>always</stationary>
+         <zIndex>1</zIndex>
+      </image>
+      <image name="textlist-inner-border">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <color>${textlistInnerBorderColor}</color>
+         <stationary>always</stationary>
+         <zIndex>2</zIndex>
+      </image>
+      <image name="textlist-background">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <color>${textlistBackgroundColor}</color>
+         <stationary>always</stationary>
+         <zIndex>3</zIndex>
+      </image>
+      <image name="textlist-background-lines">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <color>${textlistBackgroundLinesColor}</color>
+         <stationary>always</stationary>
+         <zIndex>4</zIndex>
+      </image>
+      <image name="viewname-border">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <color>${viewnameBorderColor}</color>
+         <stationary>always</stationary>
+         <zIndex>4</zIndex>
+      </image>
+      <image name="viewname-background">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <color>${viewnameBackgroundColor}</color>
+         <stationary>always</stationary>
+         <zIndex>5</zIndex>
+      </image>
+      <text name="viewname">
+         <origin>0.5 0.5</origin>
+         <fontPath>${textlistFont}</fontPath>
+         <color>${viewnameTextColor}</color>
+         <letterCase>uppercase</letterCase>
+         <zIndex>10</zIndex>
+      </text>
+      <textlist name="textlist">
+         <origin>0 0</origin>
+         <fontPath>${textlistFont}</fontPath>
+         <selectorColor>${textlistSelectorColor}</selectorColor>
+         <selectorImagePath>${spacerImage}</selectorImagePath>
+         <selectedColor>${textlistSelectedColor}</selectedColor>
+         <primaryColor>${textlistPrimaryColor}</primaryColor>
+         <secondaryColor>${textlistSecondaryColor}</secondaryColor>
+         <indicators>ascii</indicators>
+         <collectionIndicators>ascii</collectionIndicators>
+         <letterCaseAutoCollections>capitalize</letterCaseAutoCollections>
+         <systemNameSuffix>false</systemNameSuffix>
+         <zIndex>10</zIndex>
+      </textlist>
+      <image name="helpsystem-outer-border">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <color>${helpsystemOuterBorderColor}</color>
+         <stationary>always</stationary>
+         <zIndex>1</zIndex>
+      </image>
+      <image name="helpsystem-inner-border">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <color>${helpsystemInnerBorderColor}</color>
+         <stationary>always</stationary>
+         <zIndex>2</zIndex>
+      </image>
+      <image name="helpsystem-background">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <color>${helpsystemBackgroundColor}</color>
+         <stationary>always</stationary>
+         <zIndex>3</zIndex>
+      </image>
+      <helpsystem name="help">
+         <origin>0.5 0</origin>
+         <pos>0.5 0.904166666666667</pos>
+         <fontPath>${helpsystemFont}</fontPath>
+         <letterCase>uppercase</letterCase>
+         <textColor>${helpsystemTextColor}</textColor>
+         <iconColor>${helpsystemIconColor}</iconColor>
+         <customButtonIcon button="thumbstick_click">./_inc/images/help-thumbstick-click.svg</customButtonIcon>
+         <customButtonIcon button="dpad_updown">./_inc/images/help-button-dpad-up-down.svg</customButtonIcon>
+         <customButtonIcon button="dpad_leftright">./_inc/images/help-button-dpad-left-right.svg</customButtonIcon>
+         <customButtonIcon button="dpad_all">./_inc/images/help-button-dpad.svg</customButtonIcon>
+         <customButtonIcon button="button_l">./_inc/images/help-button-l.svg</customButtonIcon>
+         <customButtonIcon button="button_lt">./_inc/images/help-button-lt.svg</customButtonIcon>
+         <customButtonIcon button="button_r">./_inc/images/help-button-r.svg</customButtonIcon>
+         <customButtonIcon button="button_rt">./_inc/images/help-button-rt.svg</customButtonIcon>
+         <customButtonIcon button="button_lr">./_inc/images/help-button-lr.svg</customButtonIcon>
+         <customButtonIcon button="button_ltrt">./_inc/images/help-button-ltrt.svg</customButtonIcon>
+         <!-- Start Button -->
+         <customButtonIcon button="button_start_PS123">./_inc/images/help-button-start.svg</customButtonIcon>
+         <customButtonIcon button="button_start_PS4">./_inc/images/help-button-start.svg</customButtonIcon>
+         <customButtonIcon button="button_start_PS5">./_inc/images/help-button-start.svg</customButtonIcon>
+         <customButtonIcon button="button_start_SNES">./_inc/images/help-button-start.svg</customButtonIcon>
+         <customButtonIcon button="button_start_switch">./_inc/images/help-button-start.svg</customButtonIcon>
+         <customButtonIcon button="button_start_XBOX">./_inc/images/help-button-start.svg</customButtonIcon>
+         <customButtonIcon button="button_start_XBOX360">./_inc/images/help-button-start.svg</customButtonIcon>
+         <!-- Back Button -->
+         <customButtonIcon button="button_back_PS123">./_inc/images/help-button-back.svg</customButtonIcon>
+         <customButtonIcon button="button_back_PS4">./_inc/images/help-button-back.svg</customButtonIcon>
+         <customButtonIcon button="button_back_PS5">./_inc/images/help-button-back.svg</customButtonIcon>
+         <customButtonIcon button="button_back_SNES">./_inc/images/help-button-back.svg</customButtonIcon>
+         <customButtonIcon button="button_back_switch">./_inc/images/help-button-back.svg</customButtonIcon>
+         <customButtonIcon button="button_back_XBOX">./_inc/images/help-button-back.svg</customButtonIcon>
+         <customButtonIcon button="button_back_XBOX360">./_inc/images/help-button-back.svg</customButtonIcon>
+         <!-- East Button -->
+         <customButtonIcon button="button_b_XBOX">./_inc/images/help-button-east.svg</customButtonIcon>
+         <customButtonIcon button="button_b_PS">./_inc/images/help-button-east.svg</customButtonIcon>
+         <customButtonIcon button="button_b_switch">./_inc/images/help-button-south.svg</customButtonIcon>
+         <customButtonIcon button="button_b_SNES">./_inc/images/help-button-east.svg</customButtonIcon>
+         <!-- South Button -->
+         <customButtonIcon button="button_a_XBOX">./_inc/images/help-button-south.svg</customButtonIcon>
+         <customButtonIcon button="button_a_PS">./_inc/images/help-button-south.svg</customButtonIcon>
+         <customButtonIcon button="button_a_switch">./_inc/images/help-button-east.svg</customButtonIcon>
+         <customButtonIcon button="button_a_SNES">./_inc/images/help-button-south.svg</customButtonIcon>
+         <!-- North Button -->
+         <customButtonIcon button="button_y_XBOX">./_inc/images/help-button-north.svg</customButtonIcon>
+         <customButtonIcon button="button_y_PS">./_inc/images/help-button-north.svg</customButtonIcon>
+         <customButtonIcon button="button_y_switch">./_inc/images/help-button-west.svg</customButtonIcon>
+         <customButtonIcon button="button_y_SNES">./_inc/images/help-button-north.svg</customButtonIcon>
+         <!-- West Button -->
+         <customButtonIcon button="button_x_XBOX">./_inc/images/help-button-west.svg</customButtonIcon>
+         <customButtonIcon button="button_x_PS">./_inc/images/help-button-west.svg</customButtonIcon>
+         <customButtonIcon button="button_x_switch">./_inc/images/help-button-north.svg</customButtonIcon>
+         <customButtonIcon button="button_x_SNES">./_inc/images/help-button-west.svg</customButtonIcon>
+      </helpsystem>
+   </view>
+
+   <!--
+   ///
+   System View
+   ///
+   -->
+   <view name="system">
+      <text name="viewname">
+         <text>System Select Menu</text>
+      </text>
+   </view>
+
+   <!--
+   ///
+   Gamelist View
+   ///
+   -->
+   <view name="gamelist">
+      <text name="viewname">
+         <text>Game Select Menu: ${system.name}</text>
+      </text>
+   </view>
+
+   <!--
+   ///
+   Sounds
+   ///
+   -->
+   <view name="all">
+      <sound name="systembrowse">
+         <path>./_inc/sounds/systembrowse.wav</path>
+      </sound>
+      <sound name="quicksysselect">
+         <path>./_inc/sounds/quicksysselect.wav</path>
+      </sound>
+      <sound name="select">
+         <path>./_inc/sounds/select.wav</path>
+      </sound>
+      <sound name="back">
+         <path>./_inc/sounds/back.wav</path>
+      </sound>
+      <sound name="scroll">
+         <path>./_inc/sounds/scroll.wav</path>
+      </sound>
+      <sound name="favorite">
+         <path>./_inc/sounds/favorite.wav</path>
+      </sound>
+      <sound name="launch">
+         <path>./_inc/sounds/launch.wav</path>
+      </sound>
+   </view>
+
+   <!--
+   ///
+   Aspect Ratios
+   ///
+   -->
+   <aspectRatio name="16:9">
+      <include>./aspect-ratio-16-9.xml</include>
+   </aspectRatio>
+   <aspectRatio name="4:3">
+      <include>./aspect-ratio-4-3.xml</include>
+   </aspectRatio>
+
+</theme>
