@@ -35,11 +35,11 @@ based on 640x480
       <textlist name="textlist">
          <pos>0.0625 0.225</pos><!-- 40 108 -->
          <size>0.875 0.525</size><!-- 560 252 -->
-         <selectorHeight>0.00208333</selectorHeight>
+         <selectorHeight>0.00208333</selectorHeight><!-- 1 -->
          <selectorVerticalOffset>0.042</selectorVerticalOffset>
          <fontSize>0.03333333</fontSize><!-- 16 -->
          <lineSpacing>1.75</lineSpacing>
-         <horizontalMargin>0.03125</horizontalMargin>
+         <horizontalMargin>0.03125</horizontalMargin><!-- 20 -->
       </textlist>
       <image name="helpsystem-outer-border">
          <path>./_inc/images/4-3/helpsystem-outer-border.svg</path>
@@ -56,5 +56,31 @@ based on 640x480
          <iconTextSpacing>0.00625</iconTextSpacing><!-- 4 -->
       </helpsystem>
    </view>
+
+   <!-- Variants: List -->
+   <variant name="gamelist-list">
+      <view name="gamelist">
+         <textlist name="textlist">
+            <size>0.875 0.525</size><!-- 560 252 -->
+         </textlist>
+      </view>
+   </variant>
+
+   <!-- Variants: List + Cover -->
+   <variant name="gamelist-list-cover">
+      <view name="gamelist">
+         <textlist name="textlist">
+            <size>0.446875 0.525</size><!-- 286 252 -->
+         </textlist>
+         <image name="game-art-background">
+            <pos>0.7234375 0.48125</pos><!-- 463 231 -->
+            <size>0.428125 0.52916667</size><!-- 274 254 -->
+         </image>
+         <image name="game-art">
+            <pos>0.7390625 0.48125</pos><!-- 473 231 -->
+            <maxSize>0.396875 0.52916667</maxSize><!-- 254 254 -->
+         </image>
+      </view>
+   </variant>
 
 </theme>

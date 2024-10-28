@@ -43,4 +43,23 @@
       <entry>builtin-instant</entry>
    </suppressTransitionProfiles>
 
+   <!--
+   ///
+   Variants
+   ///
+   -->
+   <variant name="gamelist-list">
+      <label>List</label>
+      <selectable>true</selectable>
+   </variant>
+   <variant name="gamelist-list-cover">
+      <label>List + Boxart</label>
+      <selectable>true</selectable>
+      <override>
+         <trigger>noMedia</trigger>
+         <mediaType>cover</mediaType>
+         <useVariant>gamelist-list</useVariant>
+      </override>
+   </variant>
+
 </themeCapabilities>
