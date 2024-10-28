@@ -13,8 +13,8 @@ https://github.com/anthonycaccese/p10-menu-es-de
    -->
    <variables>
       <spacerImage>./_inc/images/space.png</spacerImage>
-      <textlistFont>./_inc/fonts/A Goblin Appears!.otf</textlistFont>
-      <helpsystemFont>./_inc/fonts/A Goblin Appears!.otf</helpsystemFont>
+      <textlistFont>./_inc/fonts/a-goblin-appears.otf</textlistFont>
+      <helpsystemFont>./_inc/fonts/a-goblin-appears.otf</helpsystemFont>
    </variables>
    <colorScheme name="playchoice,light-blue,dark-tan,oled,light">
       <variables>
