@@ -1,5 +1,5 @@
 <theme>
-   <colorScheme name="default">
+   <colorScheme name="playchoice">
       <variables>
          <backgroundColor>000000</backgroundColor>
          <viewnameBorderColor>000000</viewnameBorderColor>
@@ -9,14 +9,56 @@
          <textlistInnerBorderColor>156415</textlistInnerBorderColor>
          <textlistBackgroundColor>7a9f35</textlistBackgroundColor>
          <textlistSelectedColor>ffffff</textlistSelectedColor>
-         <textlistSelectorColor>ffffffaa</textlistSelectorColor>
+         <textlistSelectorColor>ffffff55</textlistSelectorColor>
          <textlistPrimaryColor>000000</textlistPrimaryColor>
          <textlistSecondaryColor>000000</textlistSecondaryColor>
-         <textlistBackgroundLinesColor>156415</textlistBackgroundLinesColor>
+         <textlistBackgroundLinesColor>15641577</textlistBackgroundLinesColor>
          <helpsystemOuterBorderColor>ffffff</helpsystemOuterBorderColor>
          <helpsystemInnerBorderColor>002d00</helpsystemInnerBorderColor>
          <helpsystemBackgroundColor>156415</helpsystemBackgroundColor>
          <helpsystemIconColor>fffe8f</helpsystemIconColor>
+         <helpsystemTextColor>ffffff</helpsystemTextColor>
+      </variables>
+   </colorScheme>
+   <colorScheme name="light-blue">
+      <variables>
+         <backgroundColor>000000</backgroundColor>
+         <viewnameBorderColor>032a4b</viewnameBorderColor>
+         <viewnameBackgroundColor>EA3352</viewnameBackgroundColor>
+         <viewnameTextColor>ffffff</viewnameTextColor>
+         <textlistOuterBorderColor>ffffff</textlistOuterBorderColor>
+         <textlistInnerBorderColor>021c32</textlistInnerBorderColor>
+         <textlistBackgroundColor>56AAF8</textlistBackgroundColor>
+         <textlistSelectedColor>ffffff</textlistSelectedColor>
+         <textlistSelectorColor>ffffff66</textlistSelectorColor>
+         <textlistPrimaryColor>032a4b</textlistPrimaryColor>
+         <textlistSecondaryColor>032a4b</textlistSecondaryColor>
+         <textlistBackgroundLinesColor>032a4b44</textlistBackgroundLinesColor>
+         <helpsystemOuterBorderColor>ffffff</helpsystemOuterBorderColor>
+         <helpsystemInnerBorderColor>000000</helpsystemInnerBorderColor>
+         <helpsystemBackgroundColor>021c32</helpsystemBackgroundColor>
+         <helpsystemIconColor>EA3352</helpsystemIconColor>
+         <helpsystemTextColor>ffffff</helpsystemTextColor>
+      </variables>
+   </colorScheme>
+   <colorScheme name="dark-tan">
+      <variables>
+         <backgroundColor>000000</backgroundColor>
+         <viewnameBorderColor>000000</viewnameBorderColor>
+         <viewnameBackgroundColor>1c1a18</viewnameBackgroundColor>
+         <viewnameTextColor>ffffff</viewnameTextColor>
+         <textlistOuterBorderColor>ffffff</textlistOuterBorderColor>
+         <textlistInnerBorderColor>1c1a18</textlistInnerBorderColor>
+         <textlistBackgroundColor>5E5750</textlistBackgroundColor>
+         <textlistSelectedColor>ffffff</textlistSelectedColor>
+         <textlistSelectorColor>ffffff33</textlistSelectorColor>
+         <textlistPrimaryColor>000000cc</textlistPrimaryColor>
+         <textlistSecondaryColor>000000cc</textlistSecondaryColor>
+         <textlistBackgroundLinesColor>00000055</textlistBackgroundLinesColor>
+         <helpsystemOuterBorderColor>ffffff</helpsystemOuterBorderColor>
+         <helpsystemInnerBorderColor>5E5750</helpsystemInnerBorderColor>
+         <helpsystemBackgroundColor>1c1a18</helpsystemBackgroundColor>
+         <helpsystemIconColor>F2A73B</helpsystemIconColor>
          <helpsystemTextColor>ffffff</helpsystemTextColor>
       </variables>
    </colorScheme>
@@ -44,8 +86,8 @@
    <colorScheme name="light">
       <variables>
          <backgroundColor>ffffff</backgroundColor>
-         <viewnameBorderColor>ffffff</viewnameBorderColor>
-         <viewnameBackgroundColor>ffffff</viewnameBackgroundColor>
+         <viewnameBorderColor>dddddd</viewnameBorderColor>
+         <viewnameBackgroundColor>eeeeee</viewnameBackgroundColor>
          <viewnameTextColor>000000</viewnameTextColor>
          <textlistOuterBorderColor>ffffff</textlistOuterBorderColor>
          <textlistInnerBorderColor>ffffff</textlistInnerBorderColor>
@@ -55,53 +97,11 @@
          <textlistPrimaryColor>999999</textlistPrimaryColor>
          <textlistSecondaryColor>999999</textlistSecondaryColor>
          <textlistBackgroundLinesColor>cccccc</textlistBackgroundLinesColor>
-         <helpsystemOuterBorderColor>dddddd</helpsystemOuterBorderColor>
+         <helpsystemOuterBorderColor>ffffff</helpsystemOuterBorderColor>
          <helpsystemInnerBorderColor>ffffff</helpsystemInnerBorderColor>
          <helpsystemBackgroundColor>ffffff</helpsystemBackgroundColor>
          <helpsystemIconColor>aaaaaa</helpsystemIconColor>
          <helpsystemTextColor>000000</helpsystemTextColor>
-      </variables>
-   </colorScheme>
-   <colorScheme name="dirty-gold">
-      <variables>
-         <backgroundColor>000000</backgroundColor>
-         <viewnameBorderColor>000000</viewnameBorderColor>
-         <viewnameBackgroundColor>1c1a18</viewnameBackgroundColor>
-         <viewnameTextColor>ffffff</viewnameTextColor>
-         <textlistOuterBorderColor>ffffff</textlistOuterBorderColor>
-         <textlistInnerBorderColor>1c1a18</textlistInnerBorderColor>
-         <textlistBackgroundColor>5E5750</textlistBackgroundColor>
-         <textlistSelectedColor>ffffff</textlistSelectedColor>
-         <textlistSelectorColor>ffffff55</textlistSelectorColor>
-         <textlistPrimaryColor>000000cc</textlistPrimaryColor>
-         <textlistSecondaryColor>000000cc</textlistSecondaryColor>
-         <textlistBackgroundLinesColor>00000055</textlistBackgroundLinesColor>
-         <helpsystemOuterBorderColor>ffffff</helpsystemOuterBorderColor>
-         <helpsystemInnerBorderColor>5E5750</helpsystemInnerBorderColor>
-         <helpsystemBackgroundColor>1c1a18</helpsystemBackgroundColor>
-         <helpsystemIconColor>F2A73B</helpsystemIconColor>
-         <helpsystemTextColor>ffffff</helpsystemTextColor>
-      </variables>
-   </colorScheme>
-   <colorScheme name="raikin">
-      <variables>
-         <backgroundColor>000000</backgroundColor>
-         <viewnameBorderColor>032a4b</viewnameBorderColor>
-         <viewnameBackgroundColor>EA3352</viewnameBackgroundColor>
-         <viewnameTextColor>ffffff</viewnameTextColor>
-         <textlistOuterBorderColor>ffffff</textlistOuterBorderColor>
-         <textlistInnerBorderColor>021c32</textlistInnerBorderColor>
-         <textlistBackgroundColor>56AAF8</textlistBackgroundColor>
-         <textlistSelectedColor>ffffff</textlistSelectedColor>
-         <textlistSelectorColor>ffffffcc</textlistSelectorColor>
-         <textlistPrimaryColor>032a4b</textlistPrimaryColor>
-         <textlistSecondaryColor>032a4b</textlistSecondaryColor>
-         <textlistBackgroundLinesColor>032a4b44</textlistBackgroundLinesColor>
-         <helpsystemOuterBorderColor>ffffff</helpsystemOuterBorderColor>
-         <helpsystemInnerBorderColor>000000</helpsystemInnerBorderColor>
-         <helpsystemBackgroundColor>021c32</helpsystemBackgroundColor>
-         <helpsystemIconColor>EA3352</helpsystemIconColor>
-         <helpsystemTextColor>ffffff</helpsystemTextColor>
       </variables>
    </colorScheme>
 </theme>

@@ -15,20 +15,20 @@
    Color Schemes
    ///
    -->
-   <colorScheme name="default">
-      <label>Default</label>
+   <colorScheme name="playchoice">
+      <label>Playchoice</label>
+   </colorScheme>
+   <colorScheme name="light-blue">
+      <label>Light Blue</label>
+   </colorScheme>
+   <colorScheme name="dark-tan">
+      <label>Dark Tan</label>
    </colorScheme>
    <colorScheme name="oled">
       <label>OLED</label>
    </colorScheme>
    <colorScheme name="light">
       <label>Light</label>
-   </colorScheme>
-   <colorScheme name="dirty-gold">
-      <label>Dirty Gold</label>
-   </colorScheme>
-   <colorScheme name="raikin">
-      <label>Raikin</label>
    </colorScheme>
    <colorScheme name="custom">
       <label>Custom</label>
