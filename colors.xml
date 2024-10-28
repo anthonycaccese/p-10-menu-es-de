@@ -41,6 +41,27 @@
          <helpsystemTextColor>ffffff</helpsystemTextColor>
       </variables>
    </colorScheme>
+   <colorScheme name="capcom-purple">
+      <variables>
+         <backgroundColor>000000</backgroundColor>
+         <viewnameBorderColor>1e0944</viewnameBorderColor>
+         <viewnameBackgroundColor>FC060F</viewnameBackgroundColor>
+         <viewnameTextColor>ffffff</viewnameTextColor>
+         <textlistOuterBorderColor>f0e9fc</textlistOuterBorderColor>
+         <textlistInnerBorderColor>3C1287</textlistInnerBorderColor>
+         <textlistBackgroundColor>a278ed</textlistBackgroundColor>
+         <textlistSelectedColor>ffffff</textlistSelectedColor>
+         <textlistSelectorColor>ffffff55</textlistSelectorColor>
+         <textlistPrimaryColor>1e0944</textlistPrimaryColor>
+         <textlistSecondaryColor>1e0944</textlistSecondaryColor>
+         <textlistBackgroundLinesColor>3C128755</textlistBackgroundLinesColor>
+         <helpsystemOuterBorderColor>f0e9fc</helpsystemOuterBorderColor>
+         <helpsystemInnerBorderColor>1e0944</helpsystemInnerBorderColor>
+         <helpsystemBackgroundColor>3C1287</helpsystemBackgroundColor>
+         <helpsystemIconColor>fd5258</helpsystemIconColor>
+         <helpsystemTextColor>ffffff</helpsystemTextColor>
+      </variables>
+   </colorScheme>
    <colorScheme name="dark-tan">
       <variables>
          <backgroundColor>000000</backgroundColor>

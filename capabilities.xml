@@ -21,6 +21,9 @@
    <colorScheme name="light-blue">
       <label>Light Blue</label>
    </colorScheme>
+   <colorScheme name="capcom-purple">
+      <label>Capcom Purple</label>
+   </colorScheme>
    <colorScheme name="dark-tan">
       <label>Dark Tan</label>
    </colorScheme>

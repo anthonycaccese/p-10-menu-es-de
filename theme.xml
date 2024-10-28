@@ -16,7 +16,7 @@ https://github.com/anthonycaccese/p10-menu-es-de
       <textlistFont>./_inc/fonts/a-goblin-appears.otf</textlistFont>
       <helpsystemFont>./_inc/fonts/a-goblin-appears.otf</helpsystemFont>
    </variables>
-   <colorScheme name="playchoice,light-blue,dark-tan,oled,light">
+   <colorScheme name="playchoice,light-blue,capcom-purple,dark-tan,oled,light">
       <variables>
          <colorSchemePath>./colors.xml</colorSchemePath>
       </variables>
