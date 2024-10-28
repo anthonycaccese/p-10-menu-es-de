@@ -16,7 +16,7 @@ https://github.com/anthonycaccese/p10-menu-es-de
       <textlistFont>./_inc/fonts/A Goblin Appears!.otf</textlistFont>
       <helpsystemFont>./_inc/fonts/A Goblin Appears!.otf</helpsystemFont>
    </variables>
-   <colorScheme name="default">
+   <colorScheme name="default,oled,light,dirty-gold,raikin">
       <variables>
          <colorSchemePath>./colors.xml</colorSchemePath>
       </variables>
