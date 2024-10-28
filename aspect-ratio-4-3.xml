@@ -76,10 +76,10 @@ based on 640x480
             <pos>0.7234375 0.48125</pos><!-- 463 231 -->
             <size>0.428125 0.52916667</size><!-- 274 254 -->
          </image>
-         <image name="game-art">
+         <video name="game-art">
             <pos>0.7390625 0.48125</pos><!-- 473 231 -->
-            <maxSize>0.396875 0.52916667</maxSize><!-- 254 254 -->
-         </image>
+            <maxSize>0.365625 0.52916667</maxSize><!-- 234 254 -->
+         </video>
       </view>
    </variant>
 
