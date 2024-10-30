@@ -50,8 +50,11 @@ You can also create your own custom color scheme by following the instructions u
 
 - `Theme Aspect Ratio` - sets the aspect ratio to match your display. This should happen automatically but can also be set manually if needed.
    - Supported Aspect Ratios:
-   - `4:3`
    - `16:9`
+   - `16:10`
+   - `4:3`
+   - `1:1`
+   - `3:2`
  
 ## Additional Notes
 
