@@ -277,5 +277,8 @@ https://github.com/anthonycaccese/p10-menu-es-de
    <aspectRatio name="4:3">
       <include>./aspect-ratio-4-3.xml</include>
    </aspectRatio>
+   <aspectRatio name="1:1">
+      <include>./aspect-ratio-1-1.xml</include>
+   </aspectRatio>
 
 </theme>

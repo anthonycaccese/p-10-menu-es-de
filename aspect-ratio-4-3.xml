@@ -29,7 +29,7 @@ based on 640x480
          <path>./_inc/images/4-3/viewname-background.svg</path>
       </image>
       <text name="viewname">
-         <pos>0.5 0.11875</pos><!-- 320 57 -->
+         <pos>0.5 0.11875</pos><!-- 50% 57 -->
          <fontSize>0.025</fontSize><!-- 12 -->
       </text>
       <textlist name="textlist">
@@ -56,15 +56,6 @@ based on 640x480
          <iconTextSpacing>0.00625</iconTextSpacing><!-- 4 -->
       </helpsystem>
    </view>
-
-   <!-- Variants: List -->
-   <variant name="gamelist-list">
-      <view name="gamelist">
-         <textlist name="textlist">
-            <size>0.875 0.525</size><!-- 560 252 -->
-         </textlist>
-      </view>
-   </variant>
 
    <!-- Variants: List + Cover -->
    <variant name="gamelist-list-cover">

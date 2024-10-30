@@ -1,0 +1,78 @@
+<!-- 
+1:1 aspect ratio
+based on 480x480
+-->
+<theme>
+
+   <!--
+   ///
+   All Views
+   ///
+   -->
+   <view name="system,gamelist">
+      <image name="textlist-outer-border">
+         <path>./_inc/images/1-1/textlist-outer-border.svg</path>
+      </image>
+      <image name="textlist-inner-border">
+         <path>./_inc/images/1-1/textlist-inner-border.svg</path>
+      </image>
+      <image name="textlist-background">
+         <path>./_inc/images/1-1/textlist-background.svg</path>
+      </image>
+      <image name="textlist-background-lines">
+         <path>./_inc/images/1-1/textlist-background-lines.svg</path>
+      </image>
+      <image name="viewname-border">
+         <path>./_inc/images/1-1/viewname-border.svg</path>
+      </image>
+      <image name="viewname-background">
+         <path>./_inc/images/1-1/viewname-background.svg</path>
+      </image>
+      <text name="viewname">
+         <pos>0.5 0.11875</pos><!-- 50% 57 -->
+         <fontSize>0.02083333</fontSize><!-- 10 -->
+      </text>
+      <textlist name="textlist">
+         <pos>0.08333333 0.225</pos><!-- 40 108 -->
+         <size>0.83333333 0.525</size><!-- 400 252 -->
+         <selectorHeight>0.00208333</selectorHeight><!-- 1 -->
+         <selectorVerticalOffset>0.042</selectorVerticalOffset>
+         <fontSize>0.03333333</fontSize><!-- 16 -->
+         <lineSpacing>1.75</lineSpacing>
+         <horizontalMargin>0.02083333</horizontalMargin><!-- 10 -->
+      </textlist>
+      <image name="helpsystem-outer-border">
+         <path>./_inc/images/1-1/helpsystem-outer-border.svg</path>
+      </image>
+      <image name="helpsystem-inner-border">
+         <path>./_inc/images/1-1/helpsystem-inner-border.svg</path>
+      </image>
+      <image name="helpsystem-background">
+         <path>./_inc/images/1-1/helpsystem-background.svg</path>
+      </image>
+      <helpsystem name="help">
+         <pos>0.5 0.91</pos>
+         <fontSize>0.01458333</fontSize><!-- 7 -->
+         <entrySpacing>0.02083333</entrySpacing><!-- 10 -->
+         <iconTextSpacing>0.00833333</iconTextSpacing><!-- 4 -->
+      </helpsystem>
+   </view>
+
+   <!-- Variants: List + Cover -->
+   <variant name="gamelist-list-cover">
+      <view name="gamelist">
+         <textlist name="textlist">
+            <size>0.39583333 0.525</size><!-- 190 252 -->
+         </textlist>
+         <image name="game-art-background">
+            <pos>0.69791667 0.48125</pos><!-- 335 231 -->
+            <size>0.4375 0.52916667</size><!-- 210 254 -->
+         </image>
+         <video name="game-art">
+            <pos>0.71875 0.48125</pos><!-- 345 231 -->
+            <maxSize>0.39583333 0.52916667</maxSize><!-- 190 254 -->
+         </video>
+      </view>
+   </variant>
+
+</theme>
