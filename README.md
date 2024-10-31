@@ -55,6 +55,7 @@ You can also create your own custom color scheme by following the instructions u
    - `4:3`
    - `1:1`
    - `3:2`
+   - `19.5:9`
  
 ## Additional Notes
 
