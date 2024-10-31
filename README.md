@@ -80,3 +80,7 @@ If you make a custom color scheme and are comfortable with sharing I would love 
 ## **Credits:**
 
 - The included font is called ["A Goblin Appears!"](https://www.dafont.com/a-goblin-appears.font)
+
+## License
+
+Creative Commons CC-BY-NC-SA - https://creativecommons.org/licenses/by-nc-sa/2.0/ You are free to share and adapt this theme as long as you provide attribution back to me (and the above credits) as well share any updates you make under the same licence terms.
