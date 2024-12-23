@@ -62,6 +62,27 @@
          <helpsystemTextColor>ffffff</helpsystemTextColor>
       </variables>
    </colorScheme>
+   <colorScheme name="retro-gray">
+      <variables>
+         <backgroundColor>000000</backgroundColor>
+         <viewnameBorderColor>000000</viewnameBorderColor>
+         <viewnameBackgroundColor>B42628</viewnameBackgroundColor>
+         <viewnameTextColor>ffffff</viewnameTextColor>
+         <textlistOuterBorderColor>676767</textlistOuterBorderColor>
+         <textlistInnerBorderColor>000000</textlistInnerBorderColor>
+         <textlistBackgroundColor>787878</textlistBackgroundColor>
+         <textlistSelectedColor>ffffff</textlistSelectedColor>
+         <textlistSelectorColor>878787</textlistSelectorColor>
+         <textlistPrimaryColor>1b1b1b</textlistPrimaryColor>
+         <textlistSecondaryColor>1b1b1b</textlistSecondaryColor>
+         <textlistBackgroundLinesColor>878787</textlistBackgroundLinesColor>
+         <helpsystemOuterBorderColor>676767</helpsystemOuterBorderColor>
+         <helpsystemInnerBorderColor>000000</helpsystemInnerBorderColor>
+         <helpsystemBackgroundColor>2b2b2b</helpsystemBackgroundColor>
+         <helpsystemIconColor>B42628</helpsystemIconColor>
+         <helpsystemTextColor>cccccc</helpsystemTextColor>
+      </variables>
+   </colorScheme>
    <colorScheme name="dark-tan">
       <variables>
          <backgroundColor>000000</backgroundColor>

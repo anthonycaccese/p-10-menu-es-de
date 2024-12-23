@@ -28,6 +28,9 @@
    <colorScheme name="capcom-purple">
       <label>Capcom Purple</label>
    </colorScheme>
+   <colorScheme name="retro-gray">
+      <label>Retro Gray</label>
+   </colorScheme>
    <colorScheme name="dark-tan">
       <label>Dark Tan</label>
    </colorScheme>

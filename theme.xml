@@ -16,7 +16,7 @@ https://github.com/anthonycaccese/p10-menu-es-de
       <textlistFont>./_inc/fonts/a-goblin-appears.otf</textlistFont>
       <helpsystemFont>./_inc/fonts/a-goblin-appears.otf</helpsystemFont>
    </variables>
-   <colorScheme name="playchoice,light-blue,capcom-purple,dark-tan,oled,light">
+   <colorScheme name="playchoice,light-blue,capcom-purple,retro-gray,dark-tan,oled,light">
       <variables>
          <colorSchemePath>./colors.xml</colorSchemePath>
       </variables>
@@ -199,7 +199,7 @@ https://github.com/anthonycaccese/p10-menu-es-de
    -->
    <view name="system">
       <text name="viewname">
-         <text>System Select Menu</text>
+         <text>Systems</text>
       </text>
    </view>
 
@@ -210,7 +210,7 @@ https://github.com/anthonycaccese/p10-menu-es-de
    -->
    <view name="gamelist">
       <text name="viewname">
-         <text>Game Select Menu: ${system.name}</text>
+         <text>Games: ${system.name}</text>
       </text>
    </view>
 
