@@ -8,6 +8,14 @@ https://github.com/anthonycaccese/p10-menu-es-de
 
    <!--
    ///
+   System Metadata
+   ///
+   -->
+   <include>./_inc/systems/metadata-global/_default.xml</include>
+   <include>./_inc/systems/metadata-global/${system.theme}.xml</include>
+
+   <!--
+   ///
    Variables
    ///
    -->
@@ -43,6 +51,9 @@ https://github.com/anthonycaccese/p10-menu-es-de
          <stationary>always</stationary>
          <zIndex>0</zIndex>
       </image>
+      <clock name="clock">
+         <opacity>0</opacity>
+      </clock>
       <image name="textlist-outer-border">
          <origin>0 0</origin>
          <pos>0 0</pos>
@@ -92,12 +103,31 @@ https://github.com/anthonycaccese/p10-menu-es-de
          <zIndex>5</zIndex>
       </image>
       <text name="viewname">
-         <origin>0.5 0.5</origin>
+         <origin>0 0.5</origin>
          <fontPath>${textlistFont}</fontPath>
+         <fontSize>0.025</fontSize><!-- 12 -->
          <color>${viewnameTextColor}</color>
          <letterCase>uppercase</letterCase>
+         <container>true</container>
+         <containerType>horizontal</containerType>
          <zIndex>10</zIndex>
       </text>
+      <systemstatus name="system-status">
+         <scope>view</scope>
+         <origin>1 0.5</origin>
+         <fontPath>${helpsystemFont}</fontPath>
+         <textRelativeScale>0.75</textRelativeScale>
+         <height>0.02916667</height><!-- 14 -->
+         <color>ffffffdd</color>
+         <customIcon icon="icon_bluetooth">./_inc/images/icon-bluetooth.svg</customIcon>
+         <customIcon icon="icon_wifi">./_inc/images/icon-wifi.svg</customIcon>
+         <customIcon icon="icon_cellular">./_inc/images/icon-cellular.svg</customIcon>
+         <customIcon icon="icon_battery_charging">./_inc/images/icon-battery-charging.svg</customIcon>
+         <customIcon icon="icon_battery_full">./_inc/images/icon-battery-full.svg</customIcon>
+         <customIcon icon="icon_battery_high">./_inc/images/icon-battery-high.svg</customIcon>
+         <customIcon icon="icon_battery_medium">./_inc/images/icon-battery-medium.svg</customIcon>
+         <customIcon icon="icon_battery_low">./_inc/images/icon-battery-low.svg</customIcon>
+      </systemstatus>
       <textlist name="textlist">
          <origin>0 0</origin>
          <fontPath>${textlistFont}</fontPath>
@@ -137,9 +167,12 @@ https://github.com/anthonycaccese/p10-menu-es-de
          <zIndex>3</zIndex>
       </image>
       <helpsystem name="help">
-         <origin>0.5 0</origin>
-         <pos>0.5 0.904166666666667</pos>
+         <scope>view</scope>
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.91666667</pos><!-- %50 480 -->
          <fontPath>${helpsystemFont}</fontPath>
+         <fontSize>0.0375</fontSize><!-- 18 -->
+         <entryRelativeScale>0.65</entryRelativeScale>
          <letterCase>uppercase</letterCase>
          <textColor>${helpsystemTextColor}</textColor>
          <iconColor>${helpsystemIconColor}</iconColor>
@@ -190,6 +223,17 @@ https://github.com/anthonycaccese/p10-menu-es-de
          <customButtonIcon button="button_x_switch">./_inc/images/help-button-north.svg</customButtonIcon>
          <customButtonIcon button="button_x_SNES">./_inc/images/help-button-west.svg</customButtonIcon>
       </helpsystem>
+      <helpsystem name="help-menu-view">
+         <scope>menu</scope>
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.95</pos>
+         <iconColor>cccccc</iconColor>
+         <textColor>cccccc</textColor>
+         <backgroundColor>181818</backgroundColor>
+         <backgroundHorizontalPadding>0.05 0.05</backgroundHorizontalPadding>
+         <backgroundVerticalPadding>0.05 0.05</backgroundVerticalPadding>
+         <backgroundCornerRadius>0.005</backgroundCornerRadius>
+      </helpsystem>
    </view>
 
    <!--
@@ -210,7 +254,7 @@ https://github.com/anthonycaccese/p10-menu-es-de
    -->
    <view name="gamelist">
       <text name="viewname">
-         <text>Games: ${system.name}</text>
+         <text>${systemName}</text>
       </text>
    </view>
 
