@@ -29,9 +29,12 @@ based on 768x480
          <path>./_inc/images/16-10/viewname-background.svg</path>
       </image>
       <text name="viewname">
-         <pos>0.5 0.11875</pos><!-- 50% 57 -->
-         <fontSize>0.025</fontSize><!-- 12 -->
+         <pos>0.11458333 0.11875</pos><!-- 88 57 -->
+         <size>0.525 0</size>
       </text>
+      <systemstatus name="system-status">
+         <pos>0.890625 0.11875</pos><!-- 684 57 -->
+      </systemstatus>
       <textlist name="textlist">
          <pos>0.05208333 0.225</pos><!-- 40 108 -->
          <size>0.89583333 0.525</size><!-- 688 252 -->
@@ -51,9 +54,9 @@ based on 768x480
          <path>./_inc/images/16-10/helpsystem-background.svg</path>
       </image>
       <helpsystem name="help">
-         <fontSize>0.025</fontSize><!-- 12 -->
-         <entrySpacing>0.01302083</entrySpacing><!-- 10 -->
-         <iconTextSpacing>0.00520833</iconTextSpacing><!-- 4 -->
+         <entrySpacing>0.01822917</entrySpacing><!-- 14 -->
+         <iconTextSpacing>0.0078125</iconTextSpacing><!-- 6 -->
+         <entries>start,back,a,b,x</entries>
       </helpsystem>
    </view>
 
